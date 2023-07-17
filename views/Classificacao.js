@@ -9,28 +9,28 @@ const altura = Dimensions.get('screen').height;
 export default function Classificação({navigation})
 {
     return<> 
-        
+
         <View style={estilos.design}>
             <Topo />
             <Text style = {estilos.descricao}>Selecione a classificação CO-RADS:</Text>
-            <TouchableOpacity style={estilos.botao} onPress={() => navigation.navigate('Corads-I',{})}>
-                <Text style={estilos.textoBotao}>CO-RADS I</Text>
+            <TouchableOpacity style={estilos.botao} onPress={() => navigation.navigate('Corads-1',{})}>
+                <Text style={estilos.textoBotao}>CORADS 1</Text>
             </TouchableOpacity>
 
-            <TouchableOpacity style={estilos.botao} onPress={() => navigation.navigate('Corads-II',{})}>
-                <Text style={estilos.textoBotao}>CO-RADS II</Text>
+            <TouchableOpacity style={estilos.botao} onPress={() => navigation.navigate('Corads-2',{})}>
+                <Text style={estilos.textoBotao}>CORADS 2</Text>
             </TouchableOpacity>
 
-            <TouchableOpacity style={estilos.botao} onPress={() => navigation.navigate('Corads-III',{})}>
-                <Text style={estilos.textoBotao}>CO-RADS III</Text>
+            <TouchableOpacity style={estilos.botao} onPress={() => navigation.navigate('Corads-3',{})}>
+                <Text style={estilos.textoBotao}>CORADS 3</Text>
             </TouchableOpacity>
 
-            <TouchableOpacity style={estilos.botao} onPress={() => navigation.navigate('Corads-IV',{})}>
-                <Text style={estilos.textoBotao}>CO-RADS IV</Text>
+            <TouchableOpacity style={estilos.botao} onPress={() => navigation.navigate('Corads-4',{})}>
+                <Text style={estilos.textoBotao}>CORADS 4</Text>
             </TouchableOpacity>
 
-            <TouchableOpacity style={estilos.botao} onPress={() => navigation.navigate('Corads-V',{})}>
-                <Text style={estilos.textoBotao}>CO-RADS V</Text>
+            <TouchableOpacity style={estilos.botao} onPress={() => navigation.navigate('Corads-5',{})}>
+                <Text style={estilos.textoBotao}>CORADS 5</Text>
             </TouchableOpacity>
 
     </View>

@@ -8,7 +8,7 @@ import CoradsI from './views/CoradsI';
 import CoradsII from './views/CoradsII';
 import CoradsIII from './views/CoradsIII';
 import CoradsIV from './views/CoradsIV';
-import CoradsV from './views/CoradsIV';
+import CoradsV from './views/CoradsV';
 
 export default function App() {
 
@@ -19,11 +19,11 @@ export default function App() {
         <Stack.Navigator>
           <Stack.Screen name="  " component={Home} />
           <Stack.Screen name="Classificação" component={Classificação} />
-          <Stack.Screen name="Corads-I" component={CoradsI} />
-          <Stack.Screen name="Corads-II" component={CoradsII} />
-          <Stack.Screen name="Corads-III" component={CoradsIII} />
-          <Stack.Screen name="Corads-IV" component={CoradsIV} />
-          <Stack.Screen name="Corads-V" component={CoradsV} />
+          <Stack.Screen name="Corads-1" component={CoradsI} />
+          <Stack.Screen name="Corads-2" component={CoradsII} />
+          <Stack.Screen name="Corads-3" component={CoradsIII} />
+          <Stack.Screen name="Corads-4" component={CoradsIV} />
+          <Stack.Screen name="Corads-5" component={CoradsV} />
         </Stack.Navigator>
       </NavigationContainer>
   );

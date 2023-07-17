@@ -8,21 +8,18 @@ export default function Home({navigation}) {
 
     return <>
         <View style={estilos.design}>
-
+            {/* <Image source={marcela} style={estilos.foto}/> */}
+            
             <TouchableOpacity style={estilos.botao} onPress={() => navigation.navigate('Classificação',{})}>
                 <Text style={estilos.textoBotao}>INICIAR</Text>
             </TouchableOpacity>
-            
-
-            <Image source={marcela} style={estilos.foto}/>
-
-
         </View>
     </>
 }
 
 const estilos = StyleSheet.create({
     design: {
+        height: "100%",
         backgroundColor: '#F6F6F6',
         marginVertical: 8,
         marginHorizontal: 16, 
@@ -34,7 +31,7 @@ const estilos = StyleSheet.create({
         alignItems: 'center'
       },
     foto: {
-        width: "95%",
+        width: "65%",
         height: "95%",
         resizeMode: "contain",
         alignSelf: "center",

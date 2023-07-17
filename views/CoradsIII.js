@@ -4,6 +4,11 @@ import { Image, StyleSheet, View, Dimensions, ScrollView, Text } from 'react-nat
 import coradsI from '../assets/pulmoes-imagem.png';
 import Topo from '../componentes/Topo';
 
+import ciii1 from '../assets/C-III-1.jpg';
+import ciii2 from '../assets/C-III-2.jpg';
+import ciii3 from '../assets/C-III-3.jpg';
+import ciii4 from '../assets/C-III-4.jpg';
+
 const width = Dimensions.get('screen').width;
 
 export default function CoradsIII({route})
@@ -13,15 +18,24 @@ export default function CoradsIII({route})
 
             <View style={estilos.design}>
 
-                <Topo />
+                <Image source={ciii1} style={estilos.foto}/>
+                <Text style={estilos.textoPagina}>Figura 1 - Área de consolidação isolada, unilateral, com vidro fosco de permeio e espessamento brônquico.</Text>
+                <View style={{ flexDirection: 'row', alignItems: 'center' }}>
+                <View style={{ flex: 1, height: 4, backgroundColor: "#239B56", marginTop: 20, marginBottom: 20 }} />
+                </View>
+                <Image source={ciii2} style={estilos.foto}/>
+                <Text style={estilos.textoPagina}>Figura 2 - Área de consolidação isolada, unilateral, com vidro fosco de permeio e espessamento brônquico.</Text>
+                <View style={{ flexDirection: 'row', alignItems: 'center' }}>
+                <View style={{ flex: 1, height: 4, backgroundColor: "#239B56", marginTop: 20, marginBottom: 20 }} />
+                </View>
+                <Image source={ciii3} style={estilos.foto}/>
+                <Text style={estilos.textoPagina}>Figura 3 - alterações indicando infecção, consolidações e vidro fosco acometendo um lobo pulmonar, difícil confirmar que não tem acometimento por COVID-19 associado.</Text>
+                <View style={{ flexDirection: 'row', alignItems: 'center' }}>
+                <View style={{ flex: 1, height: 4, backgroundColor: "#239B56", marginTop: 20, marginBottom: 20 }} />
+                </View>
+                <Image source={ciii4} style={estilos.foto}/>
+                <Text style={estilos.textoPagina}>Figura 4 - Consolidação peribroncovascular unilateral, sem opacidades em vidro fosco de permeio.</Text>
                 
-                <Image source={coradsI} style={estilos.foto}/>
-
-                <Text style={estilos.textoPagina}>Xxxxxxxxxxxxxxxx
-                xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-                xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-                xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-                xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</Text>
 
             </View>
 
@@ -42,10 +56,12 @@ const estilos = StyleSheet.create({
         alignItems: 'center'
       },
     foto: {
-        width: "95%",
+        width: "100%",
         height: 378 / 568 * width,
-        resizeMode: "contain",
+        // resizeMode: "contain",
         alignSelf: "center",
+        marginTop: 20,
+        marginBottom: 20,
         //borderRadius: 6,
         
     },

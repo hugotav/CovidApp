@@ -1,8 +1,10 @@
 import React from 'react';
 import { Image, StyleSheet, View, Dimensions, ScrollView, Text } from 'react-native'; 
 
-import coradsI from '../assets/pulmoes-imagem.png';
-import Topo from '../componentes/Topo';
+import cii1 from '../assets/C-II-1.jpg';
+import cii2 from '../assets/C-II-2.jpg';
+import cii3 from '../assets/C-II-3.jpg';
+import cii4 from '../assets/C-II-4.jpg';
 
 const width = Dimensions.get('screen').width;
 
@@ -13,15 +15,23 @@ export default function CoradsII({route})
 
             <View style={estilos.design}>
 
-                <Topo />
-                
-                <Image source={coradsI} style={estilos.foto}/>
-
-                <Text style={estilos.textoPagina}>Xxxxxxxxxxxxxxxx
-                xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-                xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-                xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-                xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</Text>
+                <Image source={cii1} style={estilos.foto}/>
+                <Text style={estilos.textoPagina}>Figura 1 - Extensa área de consolidação, com broncogramas e áreas de árvore em brotamento, espessamento brônquico e micronódulos.</Text>
+                <View style={{ flexDirection: 'row', alignItems: 'center' }}>
+                <View style={{ flex: 1, height: 4, backgroundColor: "#239B56", marginTop: 20, marginBottom: 20 }} />
+                </View>
+                <Image source={cii2} style={estilos.foto}/>
+                <Text style={estilos.textoPagina}>Figura 2 - Extensa área de consolidação, com broncogramas e áreas de árvore em brotamento, espessamento brônquico e micronódulos.</Text>
+                <View style={{ flexDirection: 'row', alignItems: 'center' }}>
+                <View style={{ flex: 1, height: 4, backgroundColor: "#239B56", marginTop: 20, marginBottom: 20  }} />
+                </View>
+                <Image source={cii3} style={estilos.foto}/>
+                <Text style={estilos.textoPagina}>Figura 3 - Consolidação acometendo o ápice pulmonar, com bronquiectasias e cavitação.</Text>
+                <View style={{ flexDirection: 'row', alignItems: 'center' }}>
+                <View style={{ flex: 1, height: 4, backgroundColor: "#239B56", marginTop: 20, marginBottom: 20  }} />
+                </View>
+                <Image source={cii4} style={estilos.foto}/>
+                <Text style={estilos.textoPagina}>Figura 4 - Extensa área de consolidação, com broncogramas e áreas de árvore em brotamento, espessamento brônquico e micronódulos.</Text>
 
             </View>
 
@@ -42,10 +52,12 @@ const estilos = StyleSheet.create({
         alignItems: 'center'
       },
     foto: {
-        width: "95%",
+        width: "100%",
         height: 378 / 568 * width,
-        resizeMode: "contain",
+        // resizeMode: "contain",
         alignSelf: "center",
+        marginTop: 20,
+        marginBottom: 20,
         //borderRadius: 6,
         
     },
