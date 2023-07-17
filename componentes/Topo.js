@@ -43,6 +43,7 @@ const estilos = StyleSheet.create ({
         //width: "100%",
         height: 58 / 248 * largura,
         resizeMode: "contain",
+        marginTop: 10
     },
 
     titulo: {

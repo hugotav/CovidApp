@@ -13,17 +13,20 @@ export default function CoradsIV({route})
 
             <View style={estilos.design}>
 
+                <View style={{ flexDirection: 'row', alignItems: 'center' }}>
+                    <View style={{ flex: 1, height: 40, backgroundColor: "#239B56", marginBottom: 10}} />
+                </View>
                 <Text style={estilos.textoPagina}> Tomografias com achados suspeitos, mas não tão típicos de COVID-19. Por exemplo, vidro fosco unilateral, consolidações multifocais sem outros achados típicos, achados suspeitos de COVID-19 com outros achados de doenças pulmonares associadas.</Text>
                 <View style={{ flexDirection: 'row', alignItems: 'center' }}>
                 <View style={{ flex: 1, height: 4, backgroundColor: "#239B56", marginTop: 20, marginBottom: 20 }} />
                 </View>
                 <Image source={civ2} style={estilos.foto}/>
-                <Text style={estilos.textoPagina}> Figura 1 - Alterações em vidro fosco bilateralmente, periféricas, associadas à lesões císticas pulmonares periféricas, atenuação em mosaico.</Text>
+                <Text style={estilos.textoPagina}> Figura 1 - Alterações em vidro fosco bilateralmente, periféricas, associadas à lesões císticas subpleurais.</Text>
                 <View style={{ flexDirection: 'row', alignItems: 'center' }}>
                 <View style={{ flex: 1, height: 4, backgroundColor: "#239B56", marginTop: 20, marginBottom: 20 }} />
                 </View>
                 <Image source={civ3} style={estilos.foto}/>
-                <Text style={estilos.textoPagina}> Figura 2 -  Imagem de vidro fosco unilateral.</Text>
+                <Text style={estilos.textoPagina}> Figura 2 -  Imagem de vidro fosco unilateral acometendo pulmão esquerdo.</Text>
                 
 
             </View>

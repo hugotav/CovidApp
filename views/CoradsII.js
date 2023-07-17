@@ -15,20 +15,27 @@ export default function CoradsII({route})
 
             <View style={estilos.design}>
 
+                <View style={{ flexDirection: 'row', alignItems: 'center' }}>
+                    <View style={{ flex: 1, height: 40, backgroundColor: "#239B56", marginBottom: 10}} />
+                </View>
+                <Text style={estilos.textoPagina}>A suspeita de COVID-19 é baixa, os achados tomográficos são compatíveis com outros processos infecciosos, como abscessos, broncopneumonia e infecção por micobacteriose.</Text>
+                <View style={{ flexDirection: 'row', alignItems: 'center' }}>
+                    <View style={{ flex: 1, height: 4, backgroundColor: "#239B56", marginTop: 20, marginBottom: 20 }} />
+                </View>
                 <Image source={cii1} style={estilos.foto}/>
                 <Text style={estilos.textoPagina}>Figura 1 - Extensa área de consolidação, com broncogramas e áreas de árvore em brotamento, espessamento brônquico e micronódulos.</Text>
                 <View style={{ flexDirection: 'row', alignItems: 'center' }}>
-                <View style={{ flex: 1, height: 4, backgroundColor: "#239B56", marginTop: 20, marginBottom: 20 }} />
+                    <View style={{ flex: 1, height: 4, backgroundColor: "#239B56", marginTop: 20, marginBottom: 20 }} />
                 </View>
                 <Image source={cii2} style={estilos.foto}/>
                 <Text style={estilos.textoPagina}>Figura 2 - Extensa área de consolidação, com broncogramas e áreas de árvore em brotamento, espessamento brônquico e micronódulos.</Text>
                 <View style={{ flexDirection: 'row', alignItems: 'center' }}>
-                <View style={{ flex: 1, height: 4, backgroundColor: "#239B56", marginTop: 20, marginBottom: 20  }} />
+                    <View style={{ flex: 1, height: 4, backgroundColor: "#239B56", marginTop: 20, marginBottom: 20  }} />
                 </View>
                 <Image source={cii3} style={estilos.foto}/>
                 <Text style={estilos.textoPagina}>Figura 3 - Consolidação acometendo o ápice pulmonar, com bronquiectasias e cavitação.</Text>
                 <View style={{ flexDirection: 'row', alignItems: 'center' }}>
-                <View style={{ flex: 1, height: 4, backgroundColor: "#239B56", marginTop: 20, marginBottom: 20  }} />
+                    <View style={{ flex: 1, height: 4, backgroundColor: "#239B56", marginTop: 20, marginBottom: 20  }} />
                 </View>
                 <Image source={cii4} style={estilos.foto}/>
                 <Text style={estilos.textoPagina}>Figura 4 - Extensa área de consolidação, com broncogramas e áreas de árvore em brotamento, espessamento brônquico e micronódulos.</Text>

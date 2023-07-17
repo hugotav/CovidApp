@@ -1,6 +1,6 @@
 import React from 'react';
 import {Text, View, Button, StyleSheet, Dimensions, Image, TouchableOpacity} from 'react-native';
-import marcela from '../assets/marcela-removebg-preview.png'
+import marcela from '../assets/marcela-icon.png'
 
 const width = Dimensions.get('screen').width;
 
@@ -8,18 +8,17 @@ export default function Home({navigation}) {
 
     return <>
         <View style={estilos.design}>
-            {/* <Image source={marcela} style={estilos.foto}/> */}
-            
             <TouchableOpacity style={estilos.botao} onPress={() => navigation.navigate('Classificação',{})}>
-                <Text style={estilos.textoBotao}>INICIAR</Text>
+                <Text style={estilos.textoBotao}>ACESSAR O ATLAS</Text>
             </TouchableOpacity>
+            <Image source={marcela} style={estilos.foto}/>
         </View>
     </>
 }
 
 const estilos = StyleSheet.create({
     design: {
-        height: "100%",
+        height: "98%",
         backgroundColor: '#F6F6F6',
         marginVertical: 8,
         marginHorizontal: 16, 
@@ -31,8 +30,8 @@ const estilos = StyleSheet.create({
         alignItems: 'center'
       },
     foto: {
-        width: "65%",
-        height: "95%",
+        width: "100%",
+        height: "55%",
         resizeMode: "contain",
         alignSelf: "center",
         //marginTop: -40,
@@ -52,8 +51,8 @@ const estilos = StyleSheet.create({
         paddingVertical: 16,
         //paddingHorizontal: 8,
         marginHorizontal: 10,
-        marginTop: 10,
-        borderRadius: 6,
+        // marginTop: 5,
+        borderRadius: 40,
         //flexDirection: "row",
         //width: '100%',
         width: "50%",

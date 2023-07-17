@@ -12,25 +12,29 @@ export default function Classificação({navigation})
 
         <View style={estilos.design}>
             <Topo />
-            <Text style = {estilos.descricao}>Selecione a classificação CO-RADS:</Text>
-            <TouchableOpacity style={estilos.botao} onPress={() => navigation.navigate('Corads-1',{})}>
+            <Text style = {estilos.descricao}>Selecione a classificação CORADS:</Text>
+            <TouchableOpacity style={estilos.botao} onPress={() => navigation.navigate('CORADS-1',{})}>
                 <Text style={estilos.textoBotao}>CORADS 1</Text>
             </TouchableOpacity>
 
-            <TouchableOpacity style={estilos.botao} onPress={() => navigation.navigate('Corads-2',{})}>
+            <TouchableOpacity style={estilos.botao} onPress={() => navigation.navigate('CORADS-2',{})}>
                 <Text style={estilos.textoBotao}>CORADS 2</Text>
             </TouchableOpacity>
 
-            <TouchableOpacity style={estilos.botao} onPress={() => navigation.navigate('Corads-3',{})}>
+            <TouchableOpacity style={estilos.botao} onPress={() => navigation.navigate('CORADS-3',{})}>
                 <Text style={estilos.textoBotao}>CORADS 3</Text>
             </TouchableOpacity>
 
-            <TouchableOpacity style={estilos.botao} onPress={() => navigation.navigate('Corads-4',{})}>
+            <TouchableOpacity style={estilos.botao} onPress={() => navigation.navigate('CORADS-4',{})}>
                 <Text style={estilos.textoBotao}>CORADS 4</Text>
             </TouchableOpacity>
 
-            <TouchableOpacity style={estilos.botao} onPress={() => navigation.navigate('Corads-5',{})}>
+            <TouchableOpacity style={estilos.botao} onPress={() => navigation.navigate('CORADS-5',{})}>
                 <Text style={estilos.textoBotao}>CORADS 5</Text>
+            </TouchableOpacity>
+
+            <TouchableOpacity style={estilos.botao2} onPress={() => navigation.navigate('SOBRE',{})}>
+                <Text style={estilos.textoBotao2}>SOBRE</Text>
             </TouchableOpacity>
 
     </View>
@@ -57,7 +61,7 @@ const estilos = StyleSheet.create({
         //paddingHorizontal: 8,
         marginHorizontal: 10,
         marginVertical: 10,
-        borderRadius: 6,
+        borderRadius: 40,
         //flexDirection: "row",
         //width: '100%',
         width: "80%",
@@ -69,6 +73,29 @@ const estilos = StyleSheet.create({
         alignItems: "center",
         textAlign: "center",
         color: "#ffffff",
+        fontSize: 16,
+        lineHeight: 26,
+        fontWeight: "bold",
+    },
+    botao2: {
+        //marginTop: 2,
+        // backgroundColor: "#ffffff",
+        paddingVertical: 16,
+        //paddingHorizontal: 8,
+        marginHorizontal: 10,
+        marginVertical: 10,
+        borderRadius: 6,
+        //flexDirection: "row",
+        //width: '100%',
+        width: "80%",
+        height: 38 / 228 * largura,
+        alignItems: "center",
+        
+    },
+    textoBotao2: {
+        alignItems: "center",
+        textAlign: "center",
+        color: "#239B56",
         fontSize: 16,
         lineHeight: 26,
         fontWeight: "bold",

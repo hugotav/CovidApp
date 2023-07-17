@@ -13,15 +13,9 @@ export default function Sobre({route})
 
             <View style={estilos.design}>
 
-                <Topo />
-                
-                <Image source={coradsI} style={estilos.foto}/>
-
-                <Text style={estilos.textoPagina}>Xxxxxxxxxxxxxxxx
-                xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-                xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-                xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-                xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</Text>
+                <Text style={estilos.textoPagina}>Aplicativo desenvolvido para o programa de Mestrado em Saúde na Amazônia da Universidade Federal do Pará.</Text>
+                <Text></Text>
+                <Text style={estilos.textoPagina}>Para dúvidas e/ou sugestões, entrar em contato através do e-mail marcelacalves95@gmail.com</Text>
 
             </View>
 

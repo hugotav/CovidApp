@@ -21,30 +21,32 @@ export default function CoradsI({route}){
     return<>
         <ScrollView>
             <View style={estilos.design}>
-
+                <View style={{ flexDirection: 'row', alignItems: 'center' }}>
+                    <View style={{ flex: 1, height: 40, backgroundColor: "#239B56", marginBottom: 10}} />
+                </View>
                 <Text style={estilos.textoPagina}>Achados tomográficos improváveis para COVID-19. São tomografias normais, ou com achados compatíveis com doenças não infecciosas, como derrame pleural por hipervolemia, insuficiencia cardíaca, neoplasias, doença pulmonar obstrutiva crônica. Vale ressaltar que nos primeiros dias de infecção leve por COVID-19 a tomografia pode não apresentar alterações.</Text>
                 <View style={{ flexDirection: 'row', alignItems: 'center' }}>
-                <View style={{ flex: 1, height: 4, backgroundColor: "#239B56", marginTop: 20, marginBottom: 20 }} />
+                    <View style={{ flex: 1, height: 4, backgroundColor: "#239B56", marginTop: 20, marginBottom: 20 }} />
                 </View>
                 <Image source={ci1} style={estilos.foto}/>
                 <Text style={estilos.textoPagina}>Figura 1</Text>
                 <View style={{ flexDirection: 'row', alignItems: 'center' }}>
-                <View style={{ flex: 1, height: 4, backgroundColor: "#239B56", marginTop: 20, marginBottom: 20 }} />
+                    <View style={{ flex: 1, height: 4, backgroundColor: "#239B56", marginTop: 20, marginBottom: 20 }} />
                 </View>
                 <Image source={ci2} style={estilos.foto}/>
                 <Text style={estilos.textoPagina}>Figura 2</Text>
                 <View style={{ flexDirection: 'row', alignItems: 'center' }}>
-                <View style={{ flex: 1, height: 4, backgroundColor: "#239B56", marginTop: 20, marginBottom: 20 }} />
+                    <View style={{ flex: 1, height: 4, backgroundColor: "#239B56", marginTop: 20, marginBottom: 20 }} />
                 </View>
                 <Image source={ci3} style={estilos.foto}/>
                 <Text style={estilos.textoPagina}>Figura 3</Text>
                 <View style={{ flexDirection: 'row', alignItems: 'center' }}>
-                <View style={{ flex: 1, height: 4, backgroundColor: "#239B56", marginTop: 20, marginBottom: 20 }} />
+                    <View style={{ flex: 1, height: 4, backgroundColor: "#239B56", marginTop: 20, marginBottom: 20 }} />
                 </View>
                 <Image source={ci4} style={estilos.foto}/>
                 <Text style={estilos.textoPagina}>Figura 4</Text>
                 <View style={{ flexDirection: 'row', alignItems: 'center' }}>
-                <View style={{ flex: 1, height: 4, backgroundColor: "#239B56", marginTop: 20, marginBottom: 20 }} />
+                    <View style={{ flex: 1, height: 4, backgroundColor: "#239B56", marginTop: 20, marginBottom: 20 }} />
                 </View>
                 <Image source={ci5} style={estilos.foto}/>
                 <Text style={estilos.textoPagina}>Figura 5</Text>

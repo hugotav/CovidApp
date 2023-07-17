@@ -23,7 +23,11 @@ export default function CoradsV({route}){
     
     return<>
         <ScrollView>
-            <View style={estilos.design}>
+
+            <View style={{ flexDirection: 'row', alignItems: 'center' }}>
+                <View style={{ flex: 1, height: 40, backgroundColor: "#239B56", marginBottom: 10}} />
+            </View>
+        <View style={estilos.design}>
                 <Video
                     ref={secondVideo}
                     style={estilos.video}

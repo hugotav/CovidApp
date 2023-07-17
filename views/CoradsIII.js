@@ -18,6 +18,9 @@ export default function CoradsIII({route})
 
             <View style={estilos.design}>
 
+                <View style={{ flexDirection: 'row', alignItems: 'center' }}>
+                    <View style={{ flex: 1, height: 40, backgroundColor: "#239B56", marginBottom: 10}} />
+                </View>
                 <Image source={ciii1} style={estilos.foto}/>
                 <Text style={estilos.textoPagina}>Figura 1 - Área de consolidação isolada, unilateral, com vidro fosco de permeio e espessamento brônquico.</Text>
                 <View style={{ flexDirection: 'row', alignItems: 'center' }}>
