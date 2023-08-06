@@ -13,9 +13,7 @@ export default function Sobre({route})
 
             <View style={estilos.design}>
 
-                <Text style={estilos.textoPagina}>Aplicativo desenvolvido para o programa de Mestrado em Saúde na Amazônia da Universidade Federal do Pará.</Text>
-                <Text></Text>
-                <Text style={estilos.textoPagina}>Para dúvidas e/ou sugestões, entrar em contato através do e-mail marcelacalves95@gmail.com</Text>
+                <Text style={estilos.textoPagina}>O CovidApp é um aplicativo desenvolvido como produto de educação em saúde para dissertação do Programa de Mestrado em Saúde na Amazônia do Núcleo de Medicina Tropical da Universidade Federal do Pará no ano de 2023. {'\n'}Esse aplicativo compõe o atlas radiológico de lesões pulmonares e sua classificação CORADS com o intuito de difundir conhecimento e promover educação continuada em saúde. {'\n'}Para dúvidas ou sugestões, entrar em contato com a autora pelo e-mail marcelacalves95@gmail.com</Text>
 
             </View>
 

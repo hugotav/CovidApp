@@ -11,30 +11,34 @@ export default function Classificação({navigation})
     return<> 
 
         <View style={estilos.design}>
-            <Topo />
-            <Text style = {estilos.descricao}>Selecione a classificação CORADS:</Text>
+            
+            <Topo/>
             <TouchableOpacity style={estilos.botao} onPress={() => navigation.navigate('CORADS-1',{})}>
-                <Text style={estilos.textoBotao}>CORADS 1</Text>
+                <Text style={estilos.textoBotao}>CORADS-1</Text>
             </TouchableOpacity>
 
             <TouchableOpacity style={estilos.botao} onPress={() => navigation.navigate('CORADS-2',{})}>
-                <Text style={estilos.textoBotao}>CORADS 2</Text>
+                <Text style={estilos.textoBotao}>CORADS-2</Text>
             </TouchableOpacity>
 
             <TouchableOpacity style={estilos.botao} onPress={() => navigation.navigate('CORADS-3',{})}>
-                <Text style={estilos.textoBotao}>CORADS 3</Text>
+                <Text style={estilos.textoBotao}>CORADS-3</Text>
             </TouchableOpacity>
 
             <TouchableOpacity style={estilos.botao} onPress={() => navigation.navigate('CORADS-4',{})}>
-                <Text style={estilos.textoBotao}>CORADS 4</Text>
+                <Text style={estilos.textoBotao}>CORADS-4</Text>
             </TouchableOpacity>
 
             <TouchableOpacity style={estilos.botao} onPress={() => navigation.navigate('CORADS-5',{})}>
-                <Text style={estilos.textoBotao}>CORADS 5</Text>
+                <Text style={estilos.textoBotao}>CORADS-5</Text>
             </TouchableOpacity>
 
             <TouchableOpacity style={estilos.botao2} onPress={() => navigation.navigate('SOBRE',{})}>
                 <Text style={estilos.textoBotao2}>SOBRE</Text>
+            </TouchableOpacity>
+
+            <TouchableOpacity style={estilos.botao2} onPress={() => navigation.navigate('REFERENCIAS',{})}>
+                <Text style={estilos.textoBotao2}>REFERÊNCIAS</Text>
             </TouchableOpacity>
 
     </View>
@@ -83,7 +87,7 @@ const estilos = StyleSheet.create({
         paddingVertical: 16,
         //paddingHorizontal: 8,
         marginHorizontal: 10,
-        marginVertical: 10,
+        marginVertical: 0,
         borderRadius: 6,
         //flexDirection: "row",
         //width: '100%',

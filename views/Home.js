@@ -8,6 +8,7 @@ export default function Home({navigation}) {
 
     return <>
         <View style={estilos.design}>
+            <Text style={estilos.textoPagina}>Seja bem-vindo ao CovidApp!</Text>
             <TouchableOpacity style={estilos.botao} onPress={() => navigation.navigate('Classificação',{})}>
                 <Text style={estilos.textoBotao}>ACESSAR O ATLAS</Text>
             </TouchableOpacity>
@@ -39,9 +40,9 @@ const estilos = StyleSheet.create({
         
     },
     textoPagina: {
-        color: "#000000",
-        fontSize: 18,
-        lineHeight: 26, 
+        color: "#239B56",
+        fontSize: 20,
+        lineHeight: 70, 
         textAlign: "justify",
         marginHorizontal: 11,
     },

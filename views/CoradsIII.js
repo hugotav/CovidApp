@@ -21,23 +21,27 @@ export default function CoradsIII({route})
                 <View style={{ flexDirection: 'row', alignItems: 'center' }}>
                     <View style={{ flex: 1, height: 40, backgroundColor: "#239B56", marginBottom: 10}} />
                 </View>
+                <Text style={estilos.textoPagina}> As imagens são sugestivas de processos infecciosos em atividade, podendo conter achados como broncograma, consolidações, vidro fosco, entre outros, sendo difícil diferenciar se o acometimento é pela COVID-19 ou por outros processos infecciosos ou inflamatórios no parênquima pulmonar. {'\n'}São achados considerados indeterminados para COVID-19, necessitando de acompanhamento e outros exames, como RT-PCR para auxiliar na investigação.</Text>
+                <View style={{ flexDirection: 'row', alignItems: 'center' }}>
+                    <View style={{ flex: 1, height: 4, backgroundColor: "#239B56", marginTop: 20, marginBottom: 20 }} />
+                </View>
                 <Image source={ciii1} style={estilos.foto}/>
-                <Text style={estilos.textoPagina}>Figura 1 - Área de consolidação isolada, unilateral, com vidro fosco de permeio e espessamento brônquico.</Text>
+                <Text style={estilos.textoPagina}>Figura 1 - Área de consolidação isolada, unilateral, com vidro fosco de permeio e espessamento brônquico, em lobo posterior do pulmão direito.</Text>
                 <View style={{ flexDirection: 'row', alignItems: 'center' }}>
                 <View style={{ flex: 1, height: 4, backgroundColor: "#239B56", marginTop: 20, marginBottom: 20 }} />
                 </View>
                 <Image source={ciii2} style={estilos.foto}/>
-                <Text style={estilos.textoPagina}>Figura 2 - Área de consolidação isolada, unilateral, com vidro fosco de permeio e espessamento brônquico.</Text>
+                <Text style={estilos.textoPagina}>Figura 2 - Área de consolidação isolada, unilateral, com vidro fosco de permeio e espessamento brônquico, em lobo posterior de pulmão direito.</Text>
                 <View style={{ flexDirection: 'row', alignItems: 'center' }}>
                 <View style={{ flex: 1, height: 4, backgroundColor: "#239B56", marginTop: 20, marginBottom: 20 }} />
                 </View>
                 <Image source={ciii3} style={estilos.foto}/>
-                <Text style={estilos.textoPagina}>Figura 3 - alterações indicando infecção, consolidações e vidro fosco acometendo um lobo pulmonar, difícil confirmar que não tem acometimento por COVID-19 associado.</Text>
+                <Text style={estilos.textoPagina}>Figura 3 - Alterações indicando processo infeccioso, com áreas de consolidação e vidro fosco, acometendo pulmão direito.</Text>
                 <View style={{ flexDirection: 'row', alignItems: 'center' }}>
                 <View style={{ flex: 1, height: 4, backgroundColor: "#239B56", marginTop: 20, marginBottom: 20 }} />
                 </View>
                 <Image source={ciii4} style={estilos.foto}/>
-                <Text style={estilos.textoPagina}>Figura 4 - Consolidação peribroncovascular unilateral, sem opacidades em vidro fosco de permeio.</Text>
+                <Text style={estilos.textoPagina}>Figura 4 - Consolidação peribroncovascular unilateral em pulmão direito, com discretas opacidades em vidro fosco de permeio.</Text>
                 
 
             </View>

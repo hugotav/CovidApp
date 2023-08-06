@@ -24,10 +24,14 @@ export default function CoradsV({route}){
     return<>
         <ScrollView>
 
-            <View style={{ flexDirection: 'row', alignItems: 'center' }}>
-                <View style={{ flex: 1, height: 40, backgroundColor: "#239B56", marginBottom: 10}} />
-            </View>
-        <View style={estilos.design}>
+            <View style={estilos.design}>
+                <View style={{ flexDirection: 'row', alignItems: 'center' }}>
+                    <View style={{ flex: 1, height: 40, backgroundColor: "#239B56", marginBottom: 10}} />
+                </View>
+                <Text style={estilos.textoPagina}>São tomografias que apresentam achados típicos da COVID-19, em que a suspeita é alta ou confirmada para a doença. São alterações com áreas de vidro fosco bilateral, de distribuição periférica, principalmente em lobos basais, associadas ou não a consolidações, espessamento vascular, pavimentação.</Text>
+                <View style={{ flexDirection: 'row', alignItems: 'center' }}>
+                <View style={{ flex: 1, height: 4, backgroundColor: "#239B56", marginTop: 20, marginBottom: 20 }} />
+                </View>
                 <Video
                     ref={secondVideo}
                     style={estilos.video}
@@ -38,11 +42,6 @@ export default function CoradsV({route}){
                     onPlaybackStatusUpdate={setStatusSecondVideo}
                 />
                 <Text style={estilos.textoPagina}>Vídeo 1</Text>
-                <View style={{ flexDirection: 'row', alignItems: 'center' }}>
-                <View style={{ flex: 1, height: 4, backgroundColor: "#239B56", marginTop: 20, marginBottom: 20 }} />
-                </View>
-
-                <Text style={estilos.textoPagina}>Presença de várias lesões em vidro fosco dispersas pelo parênquima pulmonar bilateralmente, e consolidações. De distribuição preferencial em regiões basais, associadas à espessamento vascular.</Text>
                 <View style={{ flexDirection: 'row', alignItems: 'center' }}>
                 <View style={{ flex: 1, height: 4, backgroundColor: "#239B56", marginTop: 20, marginBottom: 20 }} />
                 </View>
@@ -68,26 +67,8 @@ export default function CoradsV({route}){
                 </View>
                 <Image source={cv5} style={estilos.foto}/>
                 <Text style={estilos.textoPagina}>Figura 5</Text>
-                <View style={{ flexDirection: 'row', alignItems: 'center' }}>
-                <View style={{ flex: 1, height: 4, backgroundColor: "#239B56", marginTop: 20, marginBottom: 20 }} />
+                    
                 </View>
-                <Image source={cv6} style={estilos.foto}/>
-                <Text style={estilos.textoPagina}>Figura 6</Text>
-                <View style={{ flexDirection: 'row', alignItems: 'center' }}>
-                <View style={{ flex: 1, height: 4, backgroundColor: "#239B56", marginTop: 20, marginBottom: 20 }} />
-                </View>
-                <Image source={cv7} style={estilos.foto}/>
-                <Text style={estilos.textoPagina}>Figura 7</Text>
-                <View style={{ flexDirection: 'row', alignItems: 'center' }}>
-                <View style={{ flex: 1, height: 4, backgroundColor: "#239B56", marginTop: 20, marginBottom: 20 }} />
-                </View>
-                <Image source={cv8} style={estilos.foto}/>
-                <Text style={estilos.textoPagina}>Figura 8</Text>
-                <View style={{ flexDirection: 'row', alignItems: 'center' }}>
-                <View style={{ flex: 1, height: 4, backgroundColor: "#239B56", marginTop: 20, marginBottom: 20 }} />
-                </View>    
-                
-            </View>
         </ScrollView>  
     </>    
 }
