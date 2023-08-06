@@ -21,7 +21,7 @@ export default function CoradsIII({route})
                 <View style={{ flexDirection: 'row', alignItems: 'center' }}>
                     <View style={{ flex: 1, height: 40, backgroundColor: "#239B56", marginBottom: 10}} />
                 </View>
-                <Text style={estilos.textoPagina}> As imagens são sugestivas de processos infecciosos em atividade, podendo conter achados como broncograma, consolidações, vidro fosco, entre outros, sendo difícil diferenciar se o acometimento é pela COVID-19 ou por outros processos infecciosos ou inflamatórios no parênquima pulmonar. {'\n'}São achados considerados indeterminados para COVID-19, necessitando de acompanhamento e outros exames, como RT-PCR para auxiliar na investigação.</Text>
+                <Text style={estilos.textoPagina}> As imagens tomográficas são sugestivas de processos infecciosos em atividade, podendo conter achados como broncograma, consolidações, vidro fosco, entre outros, sendo difícil diferenciar se o acometimento é pela COVID-19 ou por outros processos infecciosos ou inflamatórios no parênquima pulmonar. {'\n'}São achados considerados indeterminados para COVID-19, necessitando de acompanhamento e outros exames, como RT-PCR para auxiliar na investigação.</Text>
                 <View style={{ flexDirection: 'row', alignItems: 'center' }}>
                     <View style={{ flex: 1, height: 4, backgroundColor: "#239B56", marginTop: 20, marginBottom: 20 }} />
                 </View>

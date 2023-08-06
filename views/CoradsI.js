@@ -24,8 +24,7 @@ export default function CoradsI({route}){
                 <View style={{ flexDirection: 'row', alignItems: 'center' }}>
                     <View style={{ flex: 1, height: 40, backgroundColor: "#239B56", marginBottom: 10}} />
                 </View>
-                <Text style={estilos.textoPagina}>Os achados tomográficos, dessa classificação, são compatíveis com tomografias normais ou com doenças não infecciosas, como derrame pleural por hipervolemia, insuficiência cardíaca, neoplasias, doença pulmonar obstrutiva crônica. Tais achados não tem relação com a infecção por COVID-19.</Text>
-                <Text style={estilos.textoPagina}>Vale ressaltar que nos primeiros dias de infecção leve por COVID-19, a tomografia pode não apresentar alterações.</Text>
+                <Text style={estilos.textoPagina}>Os achados tomográficos são compatíveis com tomografias normais ou com doenças não infecciosas, como derrame pleural por hipervolemia, insuficiência cardíaca, neoplasias, doença pulmonar obstrutiva crônica. Tais achados não têm relação com a COVID-19. {'\n'}Vale ressaltar que nos primeiros dias de infecção leve pelo coronavírus, a tomografia pode não apresentar alterações.</Text>
                 <View style={{ flexDirection: 'row', alignItems: 'center' }}>
                     <View style={{ flex: 1, height: 4, backgroundColor: "#239B56", marginTop: 20, marginBottom: 20 }} />
                 </View>

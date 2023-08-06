@@ -28,7 +28,7 @@ export default function CoradsV({route}){
                 <View style={{ flexDirection: 'row', alignItems: 'center' }}>
                     <View style={{ flex: 1, height: 40, backgroundColor: "#239B56", marginBottom: 10}} />
                 </View>
-                <Text style={estilos.textoPagina}>São tomografias que apresentam achados típicos da COVID-19, em que a suspeita é alta ou confirmada para a doença. São alterações com áreas de vidro fosco bilateral, de distribuição periférica, principalmente em lobos basais, associadas ou não a consolidações, espessamento vascular, pavimentação.</Text>
+                <Text style={estilos.textoPagina}>São tomografias que apresentam achados típicos da COVID-19, em que a suspeita é alta ou confirmada para a doença. São alterações como: áreas de vidro fosco bilateral, de distribuição periférica, principalmente em lobos basais, associadas ou não a consolidações, espessamento vascular, pavimentação.</Text>
                 <View style={{ flexDirection: 'row', alignItems: 'center' }}>
                 <View style={{ flex: 1, height: 4, backgroundColor: "#239B56", marginTop: 20, marginBottom: 20 }} />
                 </View>

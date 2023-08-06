@@ -18,7 +18,7 @@ export default function CoradsII({route})
                 <View style={{ flexDirection: 'row', alignItems: 'center' }}>
                     <View style={{ flex: 1, height: 40, backgroundColor: "#239B56", marginBottom: 10}} />
                 </View>
-                <Text style={estilos.textoPagina}>Nesses casos, os achados tomográficos são compatíveis com outros processos infecciosos, como pneumonia bacteriana, abscessos pulmonares, coleções, infecção por micobacterioses. {'\n'}A suspeita de COVID-19 é baixa. </Text>
+                <Text style={estilos.textoPagina}>Os achados tomográficos são compatíveis com outros processos infecciosos, como pneumonia bacteriana, abscessos pulmonares, coleções, infecção por micobacterioses. {'\n'}A suspeita de COVID-19 é baixa. </Text>
                 <View style={{ flexDirection: 'row', alignItems: 'center' }}>
                     <View style={{ flex: 1, height: 4, backgroundColor: "#239B56", marginTop: 20, marginBottom: 20 }} />
                 </View>
@@ -38,7 +38,7 @@ export default function CoradsII({route})
                     <View style={{ flex: 1, height: 4, backgroundColor: "#239B56", marginTop: 20, marginBottom: 20  }} />
                 </View>
                 <Image source={cii4} style={estilos.foto}/>
-                <Text style={estilos.textoPagina}>Figura 4 - Presença de cavitação isolado de paredes espessas localizada em lobo pulmonar superior direito. {'\n'}Tal achado é sugestivo de processo inflamatório/infeccioso, com possibilidade de infecção bacteriana com abscesso cavitado, tuberculose pulmonar ou neoplasia, como diagnósticos diferenciais.</Text>
+                <Text style={estilos.textoPagina}>Figura 4 - Presença de cavitação única, de paredes espessas, localizada em lobo pulmonar superior direito. {'\n'}Tal achado é sugestivo de processo inflamatório/infeccioso, com possibilidade de infecção bacteriana com abscesso cavitado, tuberculose pulmonar ou neoplasia, como diagnósticos diferenciais.</Text>
 
             </View>
 
